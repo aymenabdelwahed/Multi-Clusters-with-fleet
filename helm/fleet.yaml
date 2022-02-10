@@ -1,5 +1,5 @@
 namespace: fleet-multicluster-helm-test-exp
 helm: 
-  Chart: ./
+  Chart: .
   values: 
     replicas: 1
