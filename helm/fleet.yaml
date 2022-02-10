@@ -1,6 +1,25 @@
 namespace: fleet-multicluster-helm-test-exp
-helm: 
-  chart: ./
-  force: true
-  values: 
-    replicas: 1
+targetCustomizations: 
+- name: d-eur-pop-rke
+  helm: 
+    chart: ./
+    force: true
+    values: 
+      replicas: 3
+  clusterSelector: 
+    matchLabels: 
+      env: dev
+      zone_name: rke
+      
+- name: d-eur-pop-eks
+  helm: 
+    chart: ./
+    force: true
+    values: 
+      replicas: 1
+  clusterSelector: 
+    matchLabels: 
+      env: dev
+      zone_name: eks
+
+
