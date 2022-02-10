@@ -1,3 +1,4 @@
 namespace: hak
 kustomize: 
+  force: true
   dir: ""
