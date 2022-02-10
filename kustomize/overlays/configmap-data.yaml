@@ -1,0 +1,6 @@
+kind: ConfigMap
+apiVersion: apps/v1
+metadata:
+  name: game-demo
+data: 
+  ui: "MY PATCHED USER INTERFACE !!!!!"
