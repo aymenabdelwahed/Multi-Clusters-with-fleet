@@ -3,3 +3,4 @@ name: test
 description: Sample application
 version: 0.0.0
 appVersion: 0.0.0
+type: application
