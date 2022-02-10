@@ -12,6 +12,7 @@ targetCustomizations:
   helm: 
     values: 
       replicas: 1
+      enabled : true
     force: true
   clusterSelector: 
     matchLabels: 
