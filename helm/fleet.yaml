@@ -6,7 +6,7 @@ targetCustomizations:
       replicas: 3
   clusterSelector: 
     matchLabels: 
-      zone_name: rke      
+      provider.cattle.io: rke      
 - name: d-eur-pop-eks
   helm: 
     values: 
