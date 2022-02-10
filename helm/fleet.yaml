@@ -9,8 +9,7 @@ targetCustomizations:
   clusterSelector: 
     matchLabels: 
       env: dev
-      zone_name: rke
-      
+      zone_name: rke      
 - name: d-eur-pop-eks
   helm: 
     chart: ./
@@ -19,7 +18,6 @@ targetCustomizations:
       replicas: 1
   clusterSelector: 
     matchLabels: 
-      env: dev
       zone_name: eks
 
 
