@@ -3,7 +3,7 @@ targetCustomizations:
 - name: d-eur-pop-rke
   helm: 
     values: 
-      replicas: 3
+      replicas: 2
     force: true
   clusterSelector: 
     matchLabels: 
