@@ -4,6 +4,7 @@ targetCustomizations:
   helm: 
     values: 
       replicas: 3
+    force: true
   clusterSelector: 
     matchLabels: 
       provider.cattle.io: rke      
@@ -11,6 +12,7 @@ targetCustomizations:
   helm: 
     values: 
       replicas: 1
+    force: true
   clusterSelector: 
     matchLabels: 
       zone_name: eks
