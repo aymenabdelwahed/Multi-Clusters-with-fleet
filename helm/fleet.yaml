@@ -4,6 +4,7 @@ targetCustomizations:
   helm: 
     values: 
       replicas: 2
+      enabled: false
     force: true
   clusterSelector: 
     matchLabels: 
