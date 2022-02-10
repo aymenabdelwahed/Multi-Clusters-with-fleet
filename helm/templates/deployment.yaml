@@ -8,7 +8,7 @@ spec:
     matchLabels:
       app: redis
       role: master
-  replicas: 1
+  replicas: {{ .Values.replicas }}
   template:
     metadata:
       labels:
