@@ -1,4 +1,4 @@
-namespace: fleet-multicluster-helm-test-exp
+namespace: ha
 targetCustomizations: 
 - name: d-eur-pop-rke
   helm: 
